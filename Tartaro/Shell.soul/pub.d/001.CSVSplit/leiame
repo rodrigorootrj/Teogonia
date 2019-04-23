@@ -1,0 +1,15 @@
+Hierarquia Shell
+./Documentos
+	./Arquivos
+./Midia
+	./Imagens
+./Variaveis
+./Modulos
+./Src
+./Readme
+		./Layout
+
+Template.:
+_Var
+Função.:
+_FuncNomeDaFuncao
