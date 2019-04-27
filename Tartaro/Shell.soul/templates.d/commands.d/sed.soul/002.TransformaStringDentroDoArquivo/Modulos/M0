@@ -1,0 +1,16 @@
+#!/bin/bash
+#Autor: Rodrigo Cunha
+if [ $_lv1 == "a" ];    then
+        _lv1="A"
+fi
+if [ $_lv1 == "b" ];    then
+_lv1="B"
+fi
+if [ $_lv1 == "c" ];    then
+_lv1="C"
+fi
+if [ $_lv1 == "d" ];    then
+_lv1="D"
+fi
+export _lv1="$_lv1"
+echo Moulo $_lv1
