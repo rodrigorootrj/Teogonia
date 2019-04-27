@@ -1,0 +1,7 @@
+002.TransformaStringDentroDoArquivo: 
+Transforma Arquivos de Textos:
+arq:
+arq1:
+arq2.1:O arquivo possui nomes diversos, com nome e 1,2,3 sobrenomes. Preciso padronizar, de forma que cada registro contenha o primeiro e o ultimo nome.
+arq2.2:O arquivo possui nomes diversos, com nome e 1,2,3 sobrenomes e espaço no final destes nomes. Preciso padronizar, de forma que cada registro contenha o primeiro e o ultimo nome.
+
