@@ -1,0 +1,16 @@
+#!/bin/bash
+#05/05/2019 
+source ../../Variaveis/V1
+
+ 
+echo -e "USUÁRIO\tUID\tDIR HOME\tNOME OU DESCRIÇÃO"
+for i in $(tail $_dir$_arq | cut -d ":" -f3)
+do
+        if [ "$i" -ge 0 ]
+        then
+                usuario=$(getent $_dir$_arq "$i" | cut -d: -f1)
+                home=$(getent $_dir$_arq "$i" | cut -d: -f6)
+                echo -ne "$usuario\t"
+                echo -e "$home\t"
+        fi
+done
